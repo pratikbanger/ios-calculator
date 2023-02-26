@@ -1,0 +1,46 @@
+.text-center {
+    text-align: center;
+}
+
+.bg-blue {
+    background-color: rgb(0, 102, 255);
+}
+
+.mx-auto {
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.fd-column {
+    flex-direction: column;
+}
+
+.item-center {
+    align-items: center;
+}
+
+.bg-orange {
+    background-color: #ff8900;
+}
+
+.bg-gray {
+    background-color: #a5a5a5;
+    color: black;
+}
+
+.big-btn {
+    width: 170px;
+    border-radius: 55px;
+}
+
+
+@media (max-width: 400px) {
+
+    .big-btn {
+        width: 130px;
+        border-radius: 55px;
+    }
+}
